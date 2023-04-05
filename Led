@@ -1,5 +1,5 @@
 void setup() {
-pinMode(9);
+pinMode(9,OUTPUT);
 }
 void loop() {
   digitalWrite(9,HIGH);  // turn the LED on (HIGH is the voltage level)
